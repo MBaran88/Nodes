@@ -6,9 +6,10 @@ public class Main {
         ListItemNext l1 = new ListItemNext(null,"kota");
         ListItemNext l2 = new ListItemNext(l1,"ma");
         ListItemNext l3 = new ListItemNext(l2,"Ala");
+        ListItemPrevious l4 = new ListItemPrevious(l1,"")
 
-    ListItemNext current =l3;
-    while(current != null);{
+    /*ListItemNext current =l3;
+    while(current != null){
             System.out.println(current.getData());
             current = current.getNext();
         }
