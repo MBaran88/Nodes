@@ -7,7 +7,7 @@ public class ListItemPrevious {
     private ListItemPrevious previous;
     private Object data2;
 
-    public ListItemPrevious(ListItemPrevious previous, ListItemPrevious data2){
+    public ListItemPrevious(ListItemPrevious previous, Object data2){
         this.previous = previous;
         this.data2 = data2;
     }
