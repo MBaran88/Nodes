@@ -3,11 +3,11 @@ package com.Nodes;
 /**
  * Created by RENT on 2017-05-23.
  */
-public class ListItem {
-    private ListItem next;
+public class ListItemNext {
+    private ListItemNext next;
     private Object data;
 
-    public ListItem(ListItem next,Object data){
+    public ListItemNext(ListItemNext next, Object data){
         this.next=next;
         this.data=data;
     }
@@ -15,7 +15,7 @@ public class ListItem {
         return this.data;
 
     }
-    public ListItem getNext(){
+    public ListItemNext getNext(){
         return this.next;
     }
 }
